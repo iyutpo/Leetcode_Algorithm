@@ -57,18 +57,18 @@ $$
 
 class Solution:
   def constructFromPrePost(self, pre, post):
-    def build(i, j, length):    # i，j分别表示在pre和post数组中的起始位置，length表示当前数组的长度
+    def build(i, j, length):                               # i，j分别表示在pre和post数组中的起始位置，length表示当前数组的长度
       if length <= 0:
         return None
       root = TreeNode(pre[i])
       if length == 1:
         return root
-      k = j
-      while post[k] != pre[i+1]:
+      k = j                     
+      while post[k] != pre[i+1]:                           # 用 k 找到 左子树根节点的位置
         k += 1
-      l = k - j + 1
-      root.left = build(i + 1, j, l)
-      root.right = build(i + l + 1, k + 1, length - l - 1)
+      l = k - j + 1                                        # 求出当前左子树的长度
+      root.left = build(i + 1, j, l)                       # 递归求解。要空出前 i 个元素，因为 i 是已经安放的节点
+      root.right = build(i + l + 1, k + 1, length - l - 1) # 递归求解。要空出后 l + 1 个元素，因为 这些元素是已经安放的节点
       return root
     return build(0, 0, len(pre))
 ```
