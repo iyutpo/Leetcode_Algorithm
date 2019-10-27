@@ -107,8 +107,7 @@ map(char2num, '12345')
 注意，map object也是一个Iterable variable。
 此时map object中有1，2，3，4，5这几个元素
 reduce(f, map object)
-= f(f(f(f(x1, x2), x3), x4)
-, x5)
+= f(f(f(f(x1, x2), x3), x4), x5)
 = f(f(f(10 * x1 + x2, x3), x4), x5)
 = f(f(100 * x1 + 10 * x2 + x3, x4), x5)
 = f(1000 * x1 + 100 * x2 + 10 * x3 + x4, x5)
