@@ -11,4 +11,5 @@
 
 * [Map Reduce Lambda](basic-functions/map-reduce-lambda.md)
 * [Return\_a\_Function](basic-functions/return_a_function.md)
+* [Decorator](basic-functions/decorator.md)
 
