@@ -13,3 +13,7 @@
 * [Return\_a\_Function](basic-functions/return_a_function.md)
 * [Decorator](basic-functions/decorator.md)
 
+## Object-oriented Programming
+
+* [Class](object-oriented-programming/class.md)
+
