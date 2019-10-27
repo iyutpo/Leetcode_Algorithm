@@ -10,4 +10,5 @@
 ## Basic Functions
 
 * [Map Reduce Lambda](basic-functions/map-reduce-lambda.md)
+* [Filter](basic-functions/filter.md)
 

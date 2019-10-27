@@ -159,3 +159,48 @@ def str2int(s):
 # 上面的 lambda x, y: x * 10 + y  就相当于 f(x, y)函数
 ```
 
+
+
+#### filter\(\)函数
+
+Syntax: `filter(函数, Iterable variable)`
+
+```python
+def is_even(n):
+    return n % 2 != 1
+
+list(filter(is_odd, [1,2,3,4,5]))
+# list()是为了能将 map object 中的元素显示出来
+>>> [2, 4]
+```
+
+可见用`filter()`这个高阶函数，关键在于正确实现一个“筛选”函数。
+
+另外注意到`filter()`函数返回的是一个`Iterator`，也就是一个惰性序列，所以要强迫`filter()`完成计算结果，需要用`list()`函数获得所有结果并返回list。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
