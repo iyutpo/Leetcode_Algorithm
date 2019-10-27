@@ -1,3 +1,7 @@
+---
+description: Map Reduce Lambda
+---
+
 # Map Reduce Lambda
 
 Python内部的`map()`和`reduce()`函数
