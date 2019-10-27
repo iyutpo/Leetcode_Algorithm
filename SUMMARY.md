@@ -7,3 +7,7 @@
 * [Leetcode 889. Construct Binary Tree from Preorder and Postorder Traversal](tree/leetcode-889.-construct-binary-tree-from-preorder-and-postorder-traversal.md)
 * [Reconstruct Binary Tree from Preorder and Inorder Traversal](tree/reconstruct-binary-tree-from-preorder-and-inorder-traversal.md)
 
+## Basic Functions
+
+* [Untitled](basic-functions/untitled.md)
+
