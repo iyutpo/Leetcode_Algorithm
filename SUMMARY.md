@@ -9,5 +9,5 @@
 
 ## Basic Functions
 
-* [Map Reduce Lambda](basic-functions/untitled.md)
+* [Map Reduce Lambda](basic-functions/map-reduce-lambda.md)
 
