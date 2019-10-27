@@ -37,11 +37,35 @@ s1.print_score()
 >>> john: 60
 ```
 
+#### 设置访问权限
 
+我们刚刚提到了类内的`public`成员变量是可以被外部访问的。与之相反，`private`成员变量就是不能被外部访问的。private成员变量以双下划线开头：`__varname`。所以我们对上面的例子略微修改如下：
 
+```python
+class Student(object):
+    def __init__(self, name, score):
+        self.__name = name
+        self.score = score
+    def print_score(self):
+        print('%s: %s' % (self.__name, self.score))
 
+s1 = Student('john', 60)
+s1.print_score()
+>>> john: 60
 
+# 从外部进行访问score 和 __name：
+print(s1.score)
+>>> 60
+print(s1.__name)
+>>> Traceback (most recent call last):
+  File "main.py", line 14, in <module>
+    print(s1.__name)
+AttributeError: 'Student' object has no attribute '__name'
+```
 
+你可能会问为什么要设置权限？
+
+还是上面的例子，假设我们在开发一个学校学生分数的数据库，我们只希望内部的人进行分数记录，而不希望给外部的人或学生权限，否则外部人就能自由改动自己的分数。此时我们就有必要将`name`和`score`都变为`private`变量。
 
 
 
