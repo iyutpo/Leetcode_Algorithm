@@ -16,4 +16,5 @@
 ## Object-oriented Programming
 
 * [Class](object-oriented-programming/class.md)
+* [Inheritance](object-oriented-programming/inheritance.md)
 
