@@ -19,3 +19,7 @@
 * [Inheritance and Polymorphism](object-oriented-programming/inheritance-and-polymorphism.md)
 * [Advanced Object-oriented Programming](object-oriented-programming/advanced-object-oriented-programming.md)
 
+## Multiprocessing, Multithreading and Distribute
+
+* [Multiprocessing Multithreading and Distribute](multiprocessing-multithreading-and-distribute/multiprocessing-multithreading-and-distribute.md)
+
