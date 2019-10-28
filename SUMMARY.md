@@ -17,4 +17,5 @@
 
 * [Class](object-oriented-programming/class.md)
 * [Inheritance and Polymorphism](object-oriented-programming/inheritance-and-polymorphism.md)
+* [Advanced Object-oriented Programming](object-oriented-programming/advanced-object-oriented-programming.md)
 
