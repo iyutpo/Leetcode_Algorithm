@@ -14,7 +14,7 @@
 
 **思路：假设我们有下面二叉一棵树：**
 
-![Figure 1. Tree Example](../.gitbook/assets/1572113633-1%20%281%29.jpg)
+![Figure 1. Tree Example](../.gitbook/assets/1572113633-1.jpg)
 
 对于三种遍历方式（Preorder, Inorder, Postorder）来说，它们的顺序分别为：
 
