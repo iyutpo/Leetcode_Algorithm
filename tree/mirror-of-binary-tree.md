@@ -4,7 +4,7 @@
 
 例如我们有如下二叉树，已经镜像后的二叉树：
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 #### 思路：
 

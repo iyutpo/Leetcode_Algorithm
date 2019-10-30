@@ -8,6 +8,7 @@
 * [Reconstruct Binary Tree from Preorder and Inorder Traversal](tree/reconstruct-binary-tree-from-preorder-and-inorder-traversal.md)
 * [判断二叉树A是不是二叉树B的子结构](tree/pan-duan-er-cha-shuashi-bu-shi-er-cha-shubde-zi-jie-gou.md)
 * [Mirror of Binary Tree](tree/mirror-of-binary-tree.md)
+* [Path with Sum of Nodes Values Equals to a Target Value](tree/path-with-sum-of-nodes-values-equals-to-a-target-value.md)
 
 ## Basic Functions
 
