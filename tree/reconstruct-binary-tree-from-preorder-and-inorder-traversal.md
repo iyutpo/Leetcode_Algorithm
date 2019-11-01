@@ -32,8 +32,8 @@ def re(pre, tin):
     root = TreeNode(pre[0])                            # 每一层递归中，当前层的pre[0]一定是当前层子树的根节点
     for i in range(len(tin)):                        # 遍历tin，找到tin[i] == pre[0]。此时 i 就是当前层根节点在 tin 中的索引值
         if tin[i] == pre[0]:
-            root.left = re(pre[1:i+1], tin[:i]
-            root.right = re(pre[i+1:], tin[i+1:]
+            root.left = re(pre[1:i+1], tin[:i])
+            root.right = re(pre[i+1:], tin[i+1:])
             return root
 ```
 
