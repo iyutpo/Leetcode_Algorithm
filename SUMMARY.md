@@ -30,3 +30,7 @@
 
 * [Coroutine](asynchronous-io/coroutine.md)
 
+## Recursion and Backtracking <a id="recursion-and-backgracking"></a>
+
+* [Leetcode 51: N-Queens I](recursion-and-backgracking/leetcode-51-n-queens-i.md)
+
