@@ -131,7 +131,7 @@ print(s.solveNQueens(4))
 
 Time: O\(n^n\)
 
-Space: O\(n\)
+Space: O\(n\) 
 
 
 
