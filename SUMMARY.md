@@ -34,3 +34,7 @@
 
 * [Leetcode 51: N-Queens I](recursion-and-backgracking/leetcode-51-n-queens-i.md)
 
+## Dynamic Programming
+
+* [Leetcode 53. Maximum Subarray](dynamic-programming/leetcode-53.-maximum-subarray.md)
+
