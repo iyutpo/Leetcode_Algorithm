@@ -4,7 +4,7 @@
 
 例：
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%285%29.png)
 
 上面的图能看出，Expected Output为 `[[2, 1, 1]]`。`[4]`并不是其中一个解，因为`[4]`不能形成一个路径。只有从根节点 2 到叶节点 才算一个路径。
 
@@ -22,7 +22,7 @@ def pathSum(root, target):
     return res
 ```
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
 
 

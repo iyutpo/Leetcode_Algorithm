@@ -38,3 +38,7 @@
 
 * [Leetcode 53. Maximum Subarray](dynamic-programming/leetcode-53.-maximum-subarray.md)
 
+## Binary Search
+
+* [Leetcode 33. Search in Rotated Sorted Array](binary-search/leetcode-33.-search-in-rotated-sorted-array.md)
+
